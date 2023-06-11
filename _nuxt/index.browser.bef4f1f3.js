@@ -1,0 +1,1 @@
+let a=t=>crypto.getRandomValues(new Uint8Array(t)),g=(t,e,s)=>{let n=(2<<Math.log(t.length-1)/Math.LN2)-1,r=-~(1.6*n*e/t.length);return(h=e)=>{let l="";for(;;){let m=s(r),o=r;for(;o--;)if(l+=t[m[o]&n]||"",l.length===h)return l}}},u=(t,e=21)=>g(t,e,a);export{u as c};

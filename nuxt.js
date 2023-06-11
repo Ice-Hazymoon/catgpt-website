@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {_errors:{},serverRendered:a,data:{},state:{},config:{public:{API_BASE_URL:"https:\u002F\u002Fapi.catgpt.cc",PLATFORM:"chrome",TAURI_PLATFORM:b,isDev:a,persistedState:{storage:"cookies",debug:a,cookieOptions:{}}},app:{baseURL:"\u002F",buildAssetsDir:"nuxt",cdnURL:b}}}}(false,""))

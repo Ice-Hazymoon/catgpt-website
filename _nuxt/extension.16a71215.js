@@ -1,0 +1,1 @@
+import{at as t,o as n,b as o,e as s,$ as a}from"./entry.95d28728.js";const _={},c={id:"layout-extension"};function r(e,l){return n(),o("div",c,[s("main",null,[a(e.$slots,"default")])])}const d=t(_,[["render",r]]);export{d as default};
