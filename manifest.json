@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+
+    "name": "CatGPT",
+    "description": "基于ChatGPT 的多功能聊天插件、包含对网页进行提问、划词翻译等工具",
+    "version": "0.0.1",
+
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+
+    "options_ui": {
+        "page": "index.html#/extension/options",
+        "open_in_tab": true
+    },
+
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html#/extension/popup"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "all_frames": true,
+            "js": ["contentScript.js"],
+            "css": ["extension.css"]
+        }
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "permissions": ["contextMenus", "tabs"],
+
+    "host_permissions": ["https://*.openai.com/", "https://*.openai.azure.com/", "https://*.catgpt.run/*", "https://*.catgpt.cc/*"]
+}

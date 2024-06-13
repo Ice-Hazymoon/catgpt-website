@@ -1,0 +1,1 @@
+import{c as e}from"./Navbar.0f0e4624.js";var a=e("square-rounded-plus","IconSquareRoundedPlus",[["path",{d:"M9 12h6",key:"svg-0"}],["path",{d:"M12 9v6",key:"svg-1"}],["path",{d:"M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z",key:"svg-2"}]]);export{a as I};

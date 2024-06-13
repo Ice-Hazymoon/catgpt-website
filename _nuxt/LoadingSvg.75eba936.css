@@ -1,0 +1,1 @@
+svg.loading-svg{animation:spin 1.5s ease infinite;width:3.75em}svg.loading-svg .ring{fill:none;stroke:#fc31714d;stroke-width:2}svg.loading-svg .ball{fill:#fc2f70;stroke:none}@keyframes spin{to{transform:rotate(1turn)}}

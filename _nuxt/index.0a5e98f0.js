@@ -1,0 +1,1 @@
+import{a as e,o as t,b as n,e as o}from"./entry.b980ff2a.js";const s={class:"extension-popup"},_=o("iframe",{src:"/index.html#/chat?popup=true",frameborder:"0",border:"0",marginwidth:"0",marginheight:"0"},null,-1),a=[_],p=e({__name:"index",setup(r){return(i,c)=>(t(),n("div",s,a))}});export{p as default};

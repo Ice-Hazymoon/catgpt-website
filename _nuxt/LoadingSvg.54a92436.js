@@ -1,0 +1,1 @@
+import{at as c,o as s,b as _,e}from"./entry.b980ff2a.js";const o={},n={class:"loading-svg",viewBox:"0 0 50 50"},t=e("circle",{class:"ring",cx:"25",cy:"25",r:"20"},null,-1),a=e("circle",{class:"ball",cx:"25",cy:"5",r:"3.5"},null,-1),l=[t,a];function r(i,d){return s(),_("svg",n,l)}const g=c(o,[["render",r]]);export{g as _};

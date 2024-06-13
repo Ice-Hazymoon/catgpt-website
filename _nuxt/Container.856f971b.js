@@ -1,0 +1,1 @@
+import{_ as s}from"./LoadingSvg.54a92436.js";import{o as e,b as o,f as _,$ as c}from"./entry.b980ff2a.js";const r={class:"com-container"},i={key:0,class:"com-container-loading"},p={__name:"Container",props:{loading:{type:Boolean,default:!1}},setup(n){return(t,l)=>{const a=s;return e(),o("div",r,[n.loading?(e(),o("div",i,[_(a)])):c(t.$slots,"default",{key:1})])}}};export{p as _};
